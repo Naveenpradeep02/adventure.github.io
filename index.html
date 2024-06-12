@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADVENTUREs</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+</head>
+<body>
+    <!-- navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <h1>ADVENTURE</h1>
+        </div>
+        <ul class="navlink">
+            <li><a class="active" href="#" onclick="addclass()">Home</a></li>
+            <li><a href="#about" onclick="addclass()">About</a></li>
+            <li><a href="#explore" onclick="addclass()">Explore</a></li>
+            <li><a href="#tours" onclick="addclass()">Tours</a></li>
+            <li><a class="btn" href="#contact" onclick="addclass()">contact</a></li>
+        </ul>
+        <div class="baricorn" onclick="addclass()"><i class="fa-solid fa-bars"></i></div>
+    </nav>
+    <!-- header -->
+    <header>
+        <div class="headercon">
+            <h2>Explore The Colorful World </h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </header>
+    <!-- section 2 -->
+    <section class="events" id="about">
+        <div class="title">
+            <h1>Discover Your Next Adventure</h1>
+            <div class="line"></div>
+            <p>Are you ready to embark on a journey of a lifetime? Whether you're a thrill-seeker, nature lover, or culture enthusiast, our curated adventure trips offer something for everyone. Dive into a world of excitement and explore the unknown with Adventure Awaits.</p>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img/download.jpg" alt="">
+                <h4> Patagonia, Argentina</h4>
+                <p>Experience the breathtaking landscapes of Patagonia. From towering glaciers to expansive plains, this region is a paradise for hikers and nature enthusiasts.</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="img/2020-01-11.jpg" alt="">
+                <h4>Wolking Holidays </h4>
+                <p>Known as the adventure capital of the world, Queenstown offers an array of thrilling activities. Go bungee jumping off the iconic Kawarau Bridge, skydive over Lake Wakatipu, or enjoy a jet boat ride in the Shotover River.</p>
+                <a href="#" class="btn ">Learn More</a>
+            </div>
+            
+        </div>
+
+    </section>
+    <!-- section 3 -->
+    <section class="explore" id="explore">
+        <div class="explorecon">
+            <h1>Explore The World</h1>
+            <div class="line"></div>
+            <p>Discover the beauty and diversity our planet has to offer by embarking on unforgettable adventures around the globe. From breathtaking landscapes to vibrant cultures, the world is yours to explore and experience.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+    <!-- section 4 -->
+    <section class="tours" id="tours">
+        <div class="row">
+            <div class="col contex">
+                <h1>Upcoming Tours &and Destination</h1>
+                <div class="line"></div>
+                <p>Embark on thrilling journeys with our upcoming tours to Patagonia, New Zealand, and Costa Rica. Discover breathtaking landscapes, engage in adrenaline-pumping activities, and immerse yourself in diverse cultures. Adventure awaits, so pack your bags and join us for an unforgettable experience!</p>
+                <a href="" class="btn">Learn More</a>
+            </div>
+            <div class="col colimg">
+                <div class="imgss">
+                    <img src="img/img2.png" alt="">
+                    <img src="img/Untitled.png" alt="">
+                    <img src="img/img2.png" alt="">
+                    <img src="img/Untitled.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section 5 -->
+    <section class="footer" id="contact">
+        <p>No 143, dev Avenue , devleoped Street, addd city, ILU | Phone: 143-431-143 | Email: naveenpradeep0987@gmail.com</p>
+        <p>Copyright @2024 naveen Adventure </p>
+    </section>
+    <!-- js -->
+    <script>
+        const navlink =document.querySelector(".navlink")
+
+        function addclass(){
+            navlink.classList.toggle("mobilemenu")
+        }
+    </script>
+</body>
+</html>
